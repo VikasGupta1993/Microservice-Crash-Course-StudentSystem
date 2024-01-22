@@ -1,16 +1,16 @@
 Microservice-Crash-Course-StudentSystem
 
 Create Student
- Request payload :- http://localhost:9091/student/insert
- Request Body :-
+ Request payload:- http://localhost:9091/student/insert
+ Request Body:-
    {
     "name": "Arpit Gupta",
-    "fatherName" : "Vijay Pal Gupta",
-    "address" : "Pocket5",
-    "age" : 30
+    "fatherName": "Vijay Pal Gupta",
+    "address": "Pocket5",
+    "age": 30
    }
    
- Response :- 
+ Response:- 
    {
     "id": 3,
     "name": "Arpit Gupta",
@@ -22,8 +22,8 @@ Create Student
   
   
 Get Student
-  Request payload :- http://localhost:9091/student/1
-  Response :-
+  Request payload:- http://localhost:9091/student/1
+  Response:-
     {
 		"id": 1,
 		"name": "Vikas Gupta",
@@ -46,15 +46,15 @@ Get Student
 	
 
 Create Library
- Request payload :- http://localhost:9092/library/insert
- Request Body :-
+ Request payload:- http://localhost:9092/library/insert
+ Request Body:-
    {
-    "name" : "Juhi Gupta",
-    "address" : "Uttam Nagar",
-    "email" : "gupta@gmail.com"
+    "name": "Juhi Gupta",
+    "address": "Uttam Nagar",
+    "email": "gupta@gmail.com"
    }
    
- Response :- 
+ Response:- 
    {
     "id": 3,
     "name": "Juhi Gupta",
@@ -64,8 +64,8 @@ Create Library
    }
    
 Get Library
-  Request payload :- http://localhost:9092/library/1
-  Response :-
+  Request payload:- http://localhost:9092/library/1
+  Response:-
     {
 		"id": 1,
 		"name": "Vikas Gupta",
@@ -81,15 +81,15 @@ Get Library
 	
 	
 Create Book
- Request payload :- http://localhost:9094/book/insert
- Request Body :-
+ Request payload:- http://localhost:9094/book/insert
+ Request Body:-
    {
-    "name" : "The Dark Knight",
-    "author" : "DC Gupta",
-    "price" : 300
+    "name": "The Dark Knight",
+    "author": "DC Gupta",
+    "price": 300
    }
    
- Response :- 
+ Response:- 
    {
     "id": 3,
     "name": "The Dark Knight",
@@ -98,8 +98,8 @@ Create Book
    }
    
 Get Book
-  Request payload :- http://localhost:9094/book/1
-  Response :-
+  Request payload:- http://localhost:9094/book/1
+  Response:-
     {
 		"id": 1,
 		"name": "The Dirk Circle",
@@ -108,9 +108,9 @@ Get Book
     }
 	
 	
-API Gateway call For Student Service
-  Request payload :- http://localhost:9096/student/1
-  Response :-
+API Gateway Call for Student Service
+  Request payload:- http://localhost:9096/student/1
+  Response:-
     {
 		"id": 1,
 		"name": "Vikas Gupta",
@@ -132,8 +132,8 @@ API Gateway call For Student Service
     }
 	
 API Gateway call For Library Service
-  Request payload :- http://localhost:9096/library/1
-  Response :-
+  Request payload:- http://localhost:9096/library/1
+  Response:-
     {
 		"id": 1,
 		"name": "Vikas Gupta",
@@ -149,11 +149,6 @@ API Gateway call For Library Service
 	
 	
 API Gateway call For Book Service
-  Request payload :- http://localhost:9096/book/1
-  Response :-
-    {
-		"id": 1,
-		"name": "The Dirk Circle",
-		"author": "DayaChand Gupta",
-		"price": 200
-    }		
+  Request payload:- http://localhost:9096/book/1
+
+Eureka Server:- http://localhost:8761/ 	
